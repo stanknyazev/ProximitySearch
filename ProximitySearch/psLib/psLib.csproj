@@ -40,9 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IndexedWord.cs" />
-    <Compile Include="SimpleIndexProximitySearch.cs" />
-    <Compile Include="IProximitySearch.cs" />
+    <Compile Include="Models\IndexedWord.cs" />
+    <Compile Include="Extensions\ParamsMap.cs" />
+    <Compile Include="ProximitySearch\SimpleIndexProximitySearch.cs" />
+    <Compile Include="ProximitySearch\IProximitySearch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

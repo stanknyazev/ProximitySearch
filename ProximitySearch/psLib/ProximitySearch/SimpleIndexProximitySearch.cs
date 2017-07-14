@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace psLib
+using psLib.Models;
+
+namespace psLib.ProximitySearch
 {
     public class SimpleIndexProximitySearch : IProximitySearch
     {
@@ -12,7 +11,7 @@ namespace psLib
         public int CountInstances(string keyword, string keywordTwo, int proximity)
         {
             int count = 0;
-            foreach (IndexedWord w in indexedwords.Where(w=>w.word== keyword)) {
+            foreach (IndexedWord w in indexedwords.Where(w=>w.word == keyword)) {
                 int ub = w.index + proximity; int lb = w.index - proximity;
                 count += indexedwords.Where(ww => ww.word == keywordTwo && ww.index < ub && ww.index > lb).Count();
             }
