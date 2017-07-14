@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "psConsole", "psConsole\psConsole.csproj", "{531F1CB5-31BD-4D4A-8634-7DFD1BB35E7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "psTests", "psTests\psTests.csproj", "{0E6FD4F5-AF07-471B-9054-2317A24ED4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "psLib", "psLib\psLib.csproj", "{9E04A100-CE63-4979-A577-D1D50DE35A8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531F1CB5-31BD-4D4A-8634-7DFD1BB35E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531F1CB5-31BD-4D4A-8634-7DFD1BB35E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531F1CB5-31BD-4D4A-8634-7DFD1BB35E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531F1CB5-31BD-4D4A-8634-7DFD1BB35E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6FD4F5-AF07-471B-9054-2317A24ED4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6FD4F5-AF07-471B-9054-2317A24ED4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6FD4F5-AF07-471B-9054-2317A24ED4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6FD4F5-AF07-471B-9054-2317A24ED4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E04A100-CE63-4979-A577-D1D50DE35A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E04A100-CE63-4979-A577-D1D50DE35A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E04A100-CE63-4979-A577-D1D50DE35A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E04A100-CE63-4979-A577-D1D50DE35A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
